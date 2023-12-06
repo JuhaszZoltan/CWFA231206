@@ -1,3 +1,15 @@
+-- CREATE DATABASE novenytermesztes;
+-- USE novenytermesztes;
+
+CREATE TABLE kaktuszok (
+	id INT PRIMARY KEY IDENTITY,
+	nev VARCHAR(50),
+	tud VARCHAR(50),
+	nehezseg INT,
+	vizigeny INT,
+	fenyigeny INT);
+
+INSERT INTO kaktuszok VALUES
 ('Orgona kaktusz', 'Cephalocereus senilis', 1, 150, 1000),
 ('Ezüstkaktusz', 'Pachycereus marginatus', 2, 100, 2000),
 ('Vitorlavirágú kaktusz', 'Epiphyllum anguliger', 3, 200, 1500),
@@ -39,4 +51,4 @@
 ('Szegfű kaktusz', 'Echinopsis oxygona', 1, 150, 1000),
 ('Ragadós kaktusz', 'Notocactus scopa', 2, 200, 1500),
 ('Sarlós kaktusz', 'Sclerocactus parviflorus', 3, 100, 2000),
-('Mandula kaktusz', 'Parodia erubescens', 1, 100, 1500),
+('Mandula kaktusz', 'Parodia erubescens', 1, 100, 1500);
